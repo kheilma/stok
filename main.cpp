@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <curlpp/cURLpp.hpp>
-#include <curlpp/Options.hpp>
+#include "curlpp-master/include/curlpp/cURLpp.hpp"
+#include "curlpp-master/include/curlpp/Options.hpp"
 #include <string>
 #include <cstring>
 using namespace std;
-
+using namespace curlpp::options;
 
 string fetchData(string url) {
     curlpp::Cleanup myCleanup;
